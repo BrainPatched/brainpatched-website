@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "title": "Exploit: buffer overflow en toybox",
+      "date": "2025-07-01",
+      "tags": [
+        "pwn"
+      ],
+      "excerpt": "Análisis y PoC",
+      "path": "blog/2025-07-01-buffer-overflow-toybox.md"
+    },
+    {
+      "title": "Reverse: crackme v2",
+      "date": "2025-05-12",
+      "tags": [
+        "reversing"
+      ],
+      "excerpt": "Notas y técnicas",
+      "path": "blog/2025-05-12-reverse-crackme-v2.md"
+    },
+    {
+      "title": "Forense: ransomware simulado",
+      "date": "2024-11-20",
+      "tags": [
+        "forense"
+      ],
+      "excerpt": "IoCs y containment",
+      "path": "blog/2024-11-20-ransomware-forense.md"
+    }
+  ]
+}

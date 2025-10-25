@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Brain Patched — Think. Patch. Hack.</title>
+  <meta property="og:title" content="Brain Patched — Think. Patch. Hack." />
+  <meta property="og:description" content="Colectivo de ciberseguridad. Think. Patch. Hack." />
+  <meta property="og:image" content="imagesog-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="images/site.webmanifest">
+  <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <img src="images/logo_256.png" class="brand-logo" alt="logo"/>
+      <div class="brand-text"><h1>Brain Patched</h1><p class="motto">Think. Patch. Hack.</p></div>
+    </div>
+    <nav class="nav">
+      <a href="#about" data-i18n="nav_about">Sobre</a>
+      <a href="#members" data-i18n="nav_members">Miembros</a>
+      <a href="#ctfs" data-i18n="nav_ctfs">CTFs</a>
+      <a href="#writeups" data-i18n="nav_writeups">Writeups</a>
+      <a href="#resources" data-i18n="nav_resources">Recursos</a>
+      <a href="#blog" data-i18n="nav_blog">Blog</a>
+      <a href="#contact" data-i18n="nav_contact">Contacto</a>
+    </nav>
+    <div class="controls">
+      <button id="theme-toggle" class="btn">🌗</button>
+      <button id="lang-toggle" class="btn">ES/EN</button>
+    </div>
+  </header>
+  <main>
+    <section id="hero" class="hero">
+      <div class="logo-stack">
+        <img src="images/brain_real_logo_512.png" class="hero-logo hero-logo-real" alt="realistic brain"/>
+        <img src="images/logo_256.png" class="hero-logo hero-logo-neon" alt="neon brain"/>
+      </div>
+      <div class="hero-copy">
+        <h2 data-i18n="hero_tagline">Think. Patch. Hack.</h2>
+        <p class="lead" data-i18n="hero_lead">Somos <strong>Brain Patched</strong>, un colectivo de 5 hackers éticos y entusiastas de la ciberseguridad.</p>
+        <div style="margin-top:16px">
+          <a class="btn" href="#ctfs">Nuestros CTFs</a>
+          <a class="btn" href="#writeups">Ver writeups</a>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="panel"><h3>Sobre</h3><p>Brain Patched es un colectivo formado para aprender, competir y divulgar en ciberseguridad.</p></section>
+    <section id="members" class="panel"><h3>Miembros</h3><div class="members-grid">
+      <div class="member"><div class="avatar">AS</div><h4>Anastasio375</h4><p><strong>Especialidad:</strong> Exploits y binarios</p><p class="fun">Fun fact: Pinta chips con neón.</p></div>
+      <div class="member"><div class="avatar">H55</div><h4>H0CK55</h4><p><strong>Especialidad:</strong> Forense y respuesta a incidentes</p><p class="fun">Fun fact: Colecciona discos duros vintage.</p></div>
+      <div class="member"><div class="avatar">PJ</div><h4>PwnJ0k3r</h4><p><strong>Especialidad:</strong> Criptografía y reversing</p><p class="fun">Fun fact: Diseña puzzles criptográficos.</p></div>
+      <div class="member"><div class="avatar">XX</div><h4>[]</h4><p><strong>Especialidad:</strong> Web / Pentesting</p><p class="fun">Fun fact: Modder de interfaces retro.</p></div>
+      <div class="member"><div class="avatar">YY</div><h4>[]</h4><p><strong>Especialidad:</strong> Hardware e ingeniería inversa</p><p class="fun">Fun fact: Construyó un sintetizador casero.</p></div>
+    </div></section>
+    <section id="ctfs" class="panel"><h3>CTFs</h3><div class="blog-list"><div class="post"><h4>HackTheBox — 2024</h4><div class="meta">Top 10 · web, pwn, crypto</div></div><div class="post"><h4>CTFtime — 2023</h4><div class="meta">12 eventos · 3 podiums</div></div><div class="post"><h4>Próximo: NeonSec CTF</h4><div class="meta">Warmups en progreso</div></div></div></section>
+    <section id="writeups" class="panel"><h3>Writeups</h3><div class="blog-list"><div class="post"><h4>Exploit: buffer overflow en toybox</h4><p>Resumen y PoC. <a href="blog/2025-07-01-buffer-overflow-toybox.md">Leer →</a></p></div><div class="post"><h4>Reverse: crackme v2</h4><p>Notas y técnicas. <a href="blog/2025-05-12-reverse-crackme-v2.md">Leer →</a></p></div><div class="post"><h4>Forense: ransomware simulado</h4><p>Playbook y IoCs. <a href="blog/2024-11-20-ransomware-forense.md">Leer →</a></p></div></div></section>
+    <section id="blog" class="panel"><h3>Blog</h3><div id="blog-list" class="blog-list"></div></section>
+    <section id="resources" class="panel"><h3>Recursos</h3><ul><li>Kali, Wireshark, Burp Suite — guías</li><li>Repos: tools y plantillas</li><li>Tutoriales: pwn, reversing y web hacking</li></ul></section>
+    <section id="contact" class="panel"><h3>Contacto</h3><p>Escríbenos: <a href="mailto:brainpatched@protonmail.com">brainpatched@protonmail.com</a></p><div class="socials"><a class="btn" href="https://github.com/" target="_blank">GitHub</a><a class="btn" href="https://twitter.com/" target="_blank">Twitter</a><a class="btn" href="https://discord.com/" target="_blank">Discord</a></div></section>
+  </main>
+  <footer class="footer"><small>© 2025 Brain Patched — Think. Patch. Hack.</small></footer>
+  <script src="js/main.js"></script>
+</body></html>
