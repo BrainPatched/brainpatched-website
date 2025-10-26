@@ -34,3 +34,10 @@ document.addEventListener('DOMContentLoaded', ()=>{
   });
 });
 const i18n = {es:{"nav_about":"Sobre","nav_members":"Miembros","nav_ctfs":"CTFs","nav_writeups":"Writeups","nav_resources":"Recursos","nav_blog":"Blog","nav_contact":"Contacto","hero_tagline":"Think. Patch. Hack.","hero_lead":"Somos <strong>Brain Patched</strong>, un colectivo de 5 hackers éticos y entusiastas de la ciberseguridad."},en:{"nav_about":"About","nav_members":"Members","nav_ctfs":"CTFs","nav_writeups":"Writeups","nav_resources":"Resources","nav_blog":"Blog","nav_contact":"Contact","hero_tagline":"Think. Patch. Hack.","hero_lead":"We are <strong>Brain Patched</strong>, a 5-person collective of ethical hackers and cybersecurity enthusiasts."}};
+
+const toggle = document.querySelector('.menu-toggle');
+const nav = document.querySelector('.nav');
+
+toggle.addEventListener('click', () => {
+    nav.classList.toggle('active');
+});
