@@ -1,0 +1,50 @@
+# --- Archivos del sistema ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# --- Archivos temporales ---
+*.tmp
+*.log
+*.bak
+*.swp
+
+# --- Node / Dependencias (si usas npm para minificar o frameworks) ---
+node_modules/
+dist/
+build/
+.npm/
+.cache/
+package-lock.json
+
+# --- Archivos del editor ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- Archivos del sistema operativo ---
+desktop.ini
+$RECYCLE.BIN/
+
+# --- Archivos generados por GitHub Actions ---
+.github/workflows/*.log
+*.zip
+
+# --- Archivos personales ---
+*.psd
+*.xcf
+*.ai
+*.sketch
+*.blend
+
+# --- Configuración local ---
+.env
+.env.local
+.env.production
+.env.development
+
+# --- Salidas o compilaciones ---
+output/
+temp/
