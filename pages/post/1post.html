@@ -1,15 +1,22 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es" data-theme="dark">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Empezamos el curso — Brain Patched</title>
-  <!-- Enlazamos el CSS principal -->
-  <link rel="stylesheet" href="../assets/css/styles.css"/>
+  
+  <!-- Íconos -->
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon-16x16.png">
+  <link rel="manifest" href="../assets/images/site.webmanifest">
+  
+  <!-- Estilos principales -->
+  <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
-
 <body>
-  <!-- Header del sitio -->
+
+  <!-- Header -->
   <header class="topbar">
     <div class="brand">
       <img src="../assets/images/logo_256.png" class="brand-logo" alt="logo"/>
@@ -19,10 +26,25 @@
       </div>
     </div>
     <nav class="nav">
-      <a href="../index.html">Inicio</a>
-      <a href="../pages/blog.html">Blog</a>
+      <a href="../index.html" data-i18n="nav_index">Inicio</a>
+      <a href="ctfs.html" data-i18n="nav_ctfs">CTFs</a>
+      <a href="writeups.html" data-i18n="nav_writeups">Writeups</a>
+      <a href="resources.html" data-i18n="nav_resources">Recursos</a>
     </nav>
+    <div class="controls">
+      <button id="theme-toggle" class="btn">🌗</button>
+      <button id="lang-toggle" class="btn">ES/EN</button>
+      <button class="menu-toggle">☰</button>
+    </div>
   </header>
+
+  <!-- Hero del post -->
+  <section class="hero">
+    <div class="brand-text">
+      <h1>📝 Empezamos el curso</h1>
+      <p class="motto">Primer día del curso de ciberseguridad en la ASOC</p>
+    </div>
+  </section>
 
   <!-- Contenido principal -->
   <main>
@@ -54,6 +76,6 @@
 
   <!-- Script principal -->
   <script src="../assets/js/main.js"></script>
+
 </body>
 </html>
-
