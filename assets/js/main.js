@@ -41,3 +41,12 @@ const nav = document.querySelector('.nav');
 toggle.addEventListener('click', () => {
     nav.classList.toggle('active');
 });
+document.addEventListener("DOMContentLoaded", () => {
+  const twitterBtn = document.querySelector('a[href="https://twitter.com/BrainPatched"]');
+  if (twitterBtn) {
+    twitterBtn.addEventListener("click", (e) => {
+      e.preventDefault(); // evita que abra el enlace
+      alert("Lo abriremos pronto 🧠");
+    });
+  }
+});
