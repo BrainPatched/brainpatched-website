@@ -7,4 +7,4 @@ Sitio web oficial del grupo de ciberseguridad **Brain Patched**.
 2. Sube todo este contenido a la rama `main`.
 3. GitHub Actions desplegará automáticamente la web.
 
-URL resultante: `https://brainpatched.github.io/brainpatched-website/`
+URL resultante: ` https://brainpatched.github.io/brainpatched-website/ `
